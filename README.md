@@ -1,8 +1,51 @@
+> ## Installation Guide
+
+- Node js
+- Install Jdk
+- Android Studio and sdk manager
+- set environmental paths
+- create virtual mobile device api from android studio
+
+> ## set paths
+
+- Android \ sdk
+- Android \ sdk \ platform-tools
+- Android \ sdk \ emulator
+- Android \ sdk \ tools
+- Android \ sdk \ tools \ bin
+- Java jdk path
+
+> ## Create an app :
+
+inside an empty folder
+
+```bash
+   npx @react-native-community/cli@latest init app_Name
+
+```
+
+> ## Run Command
+
+```terminal
+
+   npx react-native run-android
+```
+
+> ### troubleShooting
+
+```
+   npx react-native doctor
+```
+
+#
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+
+##
 
 ## Step 1: Start the Metro Server
 
