@@ -37,4 +37,10 @@ inside an empty folder
    npx react-native doctor
 ```
 
-#
+## gradle problem
+```
+cd path/folder_name/android
+gradlew clean
+gradlew assembleDebug
+
+```
